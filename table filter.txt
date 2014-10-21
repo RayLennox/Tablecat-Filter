@@ -1,0 +1,45 @@
+
+
+//var names = document.getElementsByClassName('name'); // get all poster names
+
+
+
+//var filter = ["DoucheCream", ] ; // name to be filtered
+
+/* for (i=0;i<names.length;i++) { 
+
+		if (names[i].innerHTML==namefilter+' ')  {
+				posts[i].style.display="none"
+				}
+		} */
+		
+		
+//var names2 = ["DoucheCream", "RedCream", "Anonymous"];
+
+/*for (i=0;i<names2.length;i++) { 
+		for (i=0;i<posts.length;i++) {
+		if (names2[i].innerHTML==namefilter+' ')  {
+				posts[i].style.display="none"
+				}
+
+
+var trips = document.getElementsByClassName('trip') ; //get all trips
+
+var tripfilter ='!XJQU3ZcIKw' ; 
+
+
+filt = 'frozen chef'
+"frozen chef"
+filt.match(/chef/gi)
+Array [ "chef" ] */
+
+var posts = document.getElementsByClassName('post');
+
+for (i=0;i<posts.length;i++) { 
+		for (i=0;i<posts.length;i++) {
+		if (posts[i].innerHTML.match(/lisfw.uFVQ|never find/gim))  {
+				posts[i].style.display="none"
+				
+				}
+			}
+		}
