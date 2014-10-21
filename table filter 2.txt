@@ -1,0 +1,22 @@
+var filt=/name|tripcode|comment|thread_topic /gim;
+
+var posts = document.getElementsByClassName('post');
+
+
+		for (i=0;i<posts.length;i++) {
+		if (posts[i].innerHTML.search(filt)!=-1)  {
+				posts[i].style.display="none"
+				
+				}
+			}
+
+
+var threads = document.getElementsByClassName('subject');
+
+
+for (i=0;i<threads.length;i++) {
+		if (threads[i].innerHTML.search(filt)!=-1)  {
+				threads[i].style.display="none"
+				
+				}
+			}
